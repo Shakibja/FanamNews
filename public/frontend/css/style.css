@@ -1,0 +1,176 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html, body{
+    font-family: 'Tiro Bangla', serif;
+}
+a{
+
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+}
+a:hover .title, a.title:hover {    
+    color: #002c7f;
+}
+.PublishTime{       
+    color: #777;
+    font-size: 10px;
+    bottom: 10px;
+}
+
+.quickPostSection{
+    border-top: 1px solid #002c7f;
+    border-bottom: 1px solid #002c7f;
+    /* padding: 5px ; */
+    width: 100%;
+}
+
+.quickPostSection .fa-circle-half-stroke{
+    color: #002c7f
+}
+
+.quickPostSectionItem li{
+    font-size: 13.5px;
+}
+
+.special-section{
+    background-color: #b3d9f2;
+}
+ .list-group .list-group-item{
+    background: transparent;
+ }
+
+ .top-of-the-talk .division{
+    color: #002c7f;
+    font-size: 12px;
+    font-weight: 600;
+ }
+ .top-of-the-talk a .title.title-13, .seb-slug{
+    font-size: 13.5px;
+ }
+
+ /* Social */
+ 
+.FSocialShare {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.FSocialShare ul {
+    margin: 0;
+    padding: 0;
+}
+
+.FSocialShare ul li {
+    list-style: none;
+    display: inline;
+}
+.FSocialShare ul li a .fa-facebook-f {
+    background: #3b5998;
+}
+
+.FSocialShare ul li a .fa-twitter {
+    background: #00acee;
+}
+.FSocialShare ul li a .fa-linkedin-in {
+    background: #0e76a8;
+}
+.FSocialShare ul li a .fa-youtube {
+    background: red;
+}
+
+.FSocialShare ul li a .fa-instagram {
+    background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
+}
+
+.FSocialShare ul li a i {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 50px;
+    color: #fff;
+    padding-left: 1px;
+}
+
+ /* Social */
+
+
+ /* breaking news css  */
+ #headline {
+    background: #fff;
+    border: 1px solid #d0301f;
+    margin-bottom: 10px
+}
+
+.headlines {
+    width: 100%;
+    font-size: 14px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 99;
+    position: relative;
+    height: 30px
+}
+
+.headline_left {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    background: #d0301f;
+    position: absolute;
+    z-index: 99;
+    height: 50px;
+    text-align: left;
+    padding-right: 30px;
+    _clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+    _width: 200px
+}
+
+.headline_left p {
+    margin-left: 25px;
+    margin-top: 3px
+}
+
+.headlines ul {
+    width: 100%;
+    margin: 0;
+    list-style-type: none
+}
+
+.headlines ul li {
+    list-style: none;
+    padding: 2px;
+    margin: 0 0 0 5px;
+    font-size: 16px
+}
+
+.headlines marquee {
+    float: left;
+    width: 100%;
+    height: 30px;
+    padding: 0
+}
+
+.headlines ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 0
+}
+
+.headlines ul li img {
+    margin-top: -3px
+}
+
+ 

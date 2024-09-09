@@ -1,0 +1,98 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "\f35a";
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    color: #002c7f;
+}
+
+
+.breadcrumb-item.active{
+    color: #7998c3;
+}
+
+.dheading h1 {
+    
+    font-weight: 400;
+}
+
+.DsubHead, .writter {
+   
+    color: #002c7f;
+   
+}
+
+.DTextZoom button {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #002c7f;
+    padding: 0;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color : #b3d9f2;
+}
+
+
+.dNewsDesc > p{
+    font-size: 18px;
+
+}
+.catSectionHeading{
+    position: relative;
+}
+.catSectionHeading::before, .dlastHead::before {
+    position: absolute;
+    content: "";
+   
+    right: 0;
+    width: calc( 100% - 25px);
+    height: 3px;
+    background: #002c7f;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+.catSectionHeading::before{
+ top: 50%;
+}
+.dlastHead::before{
+ top: 34%;
+}
+.catSectionHeading h3, .dlastHead h3 {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    /* bottom: -15px; */
+    background: #fff;
+    padding-right: 20px;
+}
+.catSectionHeading h3::before, .dlastHead h3::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -15px;
+    width: 15px;
+    height: 15px;
+    background: #002c7f;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.CatNewsLisText {
+    position: relative;
+    height: 100%;
+}
+.CatNewsListContent {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.CatNewsLisText .PublishTime {
+    position: absolute;
+    bottom: 0;
+}

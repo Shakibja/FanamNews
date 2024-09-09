@@ -1,0 +1,20 @@
+.adv-row{
+    height: 150px;
+    width: 100%;
+     /* background: url('../images/adv/ts.png'), #dbdbdb; */
+     background-color:#dbdbdb;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+    
+}
+.adv-col{
+    height: 300px;
+    width: 305px;
+    /* background: url('../images/adv/Banner-Ads-Techsolutions-1.png'), #dbdbdb; */
+    background-color:#dbdbdb;
+     /* background-position: 0 -20px; */
+     /* background-size: contain; */
+     /* background-repeat: no-repeat; */
+}

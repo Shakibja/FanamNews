@@ -1,0 +1,51 @@
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+.progress-wrap {
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px rgba(0, 93, 224, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(130%);
+    z-index: 99;
+    transition: all 200ms linear;
+}
+
+
+.progress-wrap::after {
+    position: absolute;
+    content: "➔";
+  
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: 2px;
+    font-weight: 900;
+    color: #002c7f;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+}
+
+.progress-wrap svg.progress-circle path {
+    stroke: #002c7f;
+    stroke-width: 6;
+    box-sizing: border-box;
+}
+.progress-wrap svg path {
+    fill: none;
+}

@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html, body{
+    font-family: 'Tiro Bangla', serif;
+}
+a{
+
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+}
+a:hover .title, a.title:hover {    
+    color: #002c7f;
+}
+.PublishTime{       
+    color: #777;
+    font-size: 10px;
+    bottom: 10px;
+}
+
+.quickPostSection{
+    border-top: 1px solid #002c7f;
+    border-bottom: 1px solid #002c7f;
+    /* padding: 5px ; */
+    width: 100%;
+}
+
+.quickPostSection .fa-circle-half-stroke{
+    color: #002c7f
+}
+
+.quickPostSectionItem li{
+    font-size: 13.5px;
+}
+
+.special-section{
+    background-color: #b3d9f2;
+}
+ .list-group .list-group-item{
+    background: transparent;
+ }
+
+ .top-of-the-talk .division{
+    color: #002c7f;
+    font-size: 12px;
+    font-weight: 600;
+ }
+ .top-of-the-talk a .title.title-13, .seb-slug{
+    font-size: 13.5px;
+ }
+
+ /* Social */
+ 
+.FSocialShare {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.FSocialShare ul {
+    margin: 0;
+    padding: 0;
+}
+
+.FSocialShare ul li {
+    list-style: none;
+    display: inline;
+}
+.FSocialShare ul li a .fa-facebook-f {
+    background: #3b5998;
+}
+
+.FSocialShare ul li a .fa-twitter {
+    background: #00acee;
+}
+.FSocialShare ul li a .fa-linkedin-in {
+    background: #0e76a8;
+}
+.FSocialShare ul li a .fa-youtube {
+    background: red;
+}
+
+.FSocialShare ul li a .fa-instagram {
+    background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
+}
+
+.FSocialShare ul li a i {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 50px;
+    color: #fff;
+    padding-left: 1px;
+}
+
+ /* Social */

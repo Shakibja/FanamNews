@@ -1,0 +1,73 @@
+.category-area .heading-title {
+    color: #002c7f;
+}
+
+ul.sub-category{
+    list-style-type: disc;
+    list-style-image:#002c7f ;
+    padding-left: 1rem
+
+}
+
+ul.sub-category li::marker{
+    margin: 0 0.5rem 0 0;
+    color: #002c7f;
+}
+
+/* .DCatLead picture img, .Catcards picture img, .CatListNews picture img {
+    transition: all .3s ease-in;
+} */
+
+/* .DCatLead picture, .Catcards picture{
+    overflow: hidden;
+} */
+/* a:hover picture img{
+    transform: scale(1.1);
+} */
+
+.Catcards {
+    padding: 10px;
+    background: #D6E5D3;
+    border-radius: 3px;
+}
+
+.read-more-btn a {
+    background: #D6E5D3;
+    color: #002c7f;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+     transition: all .3s ease-in;
+}
+.read-more-btn .pagination{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.read-more-btn .pagination a {
+    padding: 5px 15px !important;
+}
+.read-more-btn .pagination span{
+    background: #D6E5D3 !important;
+    color: #002c7f !important;
+    padding: 5px 15px !important;
+    display: inline-block !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+    margin-right: 5px !important;
+    border-radius: 10px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    transition: all .3s ease-in !important;
+}
+.read-more-btn .active span{
+    border-color: #002c7f !important;
+}
+.read-more-btn a:hover{
+     color: #D6E5D3;
+    background: #002c7f;
+}
